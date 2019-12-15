@@ -1,0 +1,142 @@
+\documentclass[10pt]{article}
+\usepackage[dvips]{graphics,epsfig}
+\usepackage[russian]{babel}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{cite}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[german]{babel}
+
+\textwidth 14cm
+\textheight 20cm
+\begin{document}
+
+\noindent УДК 517.987 \hfill Вестник СПбГУ. Сер. 1, Т. , 2019 , вып. 3
+
+\noindent MSC 28C99
+
+\medskip
+
+\noindent {\bf Об оценках обобщенной размерности Хаусдорфа. }
+
+\medskip
+
+\noindent {\it Г.А. Леонов, А.А.  Флоринский }
+
+{\small
+\noindent Санкт-Петербургский государственный университет, \\
+Российская Федерация, 199034, Санкт-Петербург, Университетская наб., 7/9
+}
+
+\section{Введение}
+
+ Проблема
+\section{Предварительные определения и утверждения}
+ Г.А.Леонова \cite{leonov} .
+
+
+\paragraph*{Теорема 1.} 
+Пусть множество $X$ и семейство $\Omega$ таковы, как описано выше. 
+Следующие условия эквивалентны.
+
+    1. Для всякой функции $h: \Omega \to [0, \infty]$ со свойством 
+    $h(\Lambda) = 0$ функционал $\mu_{LH}$ является внешней мерой. 
+    
+    2. Функционалы $\mu_H$ и $\mu_{LH}$ совпадают  при любой функции 
+    $h: \Omega \to [0, \infty]$ со свойством $h(\Lambda) = 0$.
+    
+    3.Выполнены следующие два утверждения.
+    
+        а) Семейство $\Omega$ диадически упорядочено отношением включения, 
+        то есть для любых $A, B \in \Omega$ , выполнено $A \subset B $
+        или $ A \supset B$ или $A \bigcap B = \Lambda$.
+        
+        б) Семейство $\Omega$ удовлетворяет условию обрыва возрастающих цепей, 
+        то есть каждая возрастающая по включению последовательность элементов
+        семейства $\Omega$ конечна.
+        
+    4.  Семейство $\Omega$ удовлетворяет условию (*). 
+    
+\paragraph*{Доказательство.}
+Ясно
+
+
+\section{Основные определения}
+
+ Перейдем 
+ 
+\begin{enumerate}
+    \item Для любых $\Delta_1 \subset \Delta_2$
+    из $\Omega$ выполнено
+    $\aleph (\Delta_1) \subset \aleph(\Delta_2) $
+    
+    \item Для любой убывающей последовательности
+    $\{\Delta_i\}_{i=1}^\infty \subset \Omega$
+    выполнено
+    $\overset{\infty}{\underset{l = 0}{\bigcap}}
+    \aleph (\Delta_i) \neq \Lambda$ 
+    
+    \item Для каждого 
+    $\Delta \in \Omega$
+    справедливо условие
+    $
+    \underset{l \to \infty}{\lim}
+    \frac{ | \tilde{\Omega}_l(\Delta) | }
+         { | \Omega_l(\Delta) | } =
+    1
+    $,
+    где
+    $
+    \tilde{\Omega}_l(\Delta) =
+    \{\Delta' \in  \Omega_l : 
+    \aleph (\Delta') \subset \Delta \}
+    $
+\end{enumerate}
+
+
+
+\paragraph*{Теорема 2}
+
+Пусть
+$\mathfrak{A} = (X, \Omega, h) - $ ОРП
+с конечным индексом компактности и верхней размерностью
+$d > 0$.
+Пусть $J \subset [0, d] - $ компакт.
+Тогда существуют 
+$\sigma  \in \uparrow (\mathbb{N}) $
+и $E \subset X$ такие,
+что $\mbox{Dim}_H (\mathfrak{A_\sigma}, E) = J$.
+
+
+Вначале мы установим ряд 
+вспомогательных утверждений.
+
+\section{Вспомогательные построения}
+
+
+
+\paragraph*{Замечание.}
+Заметим, что в случае, когда
+$f - $отображение заданное на открытом множестве
+евклидова пространства, класса $C^1$,
+такое, что
+при некотором $s > 0$
+значение сингулярной функции 
+$\omega_s (d_x f) $
+меньше $1$ при каждом 
+$x \in E$,
+причем $E$ компактно и
+$f(E) = E$,
+то некоторая степень $f$
+является
+$(\alpha, s) - $сжимающим отображением на $E$.
+Это сразу следует из классической оценки в доказательстве теоремы Дуади - Остерле (см. \cite{scan_boch} ).
+
+
+\bibliographystyle{unsrt}
+\bibliography{Leonov_Florinsky}
+
+
+
+\end{document}
+
